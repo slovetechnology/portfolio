@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import cv from "../file/mycv.pdf"
 
 const Banner = () => {
   return (
@@ -10,7 +10,7 @@ const Banner = () => {
                     <h6>WELCOME TO MY WORLD</h6>
                     <h1>I'm George Godslove <br /> A Self-taught <i className="fas fa-laptop-code fa-fw"></i> <br /><span>SOFTWARE Engineer.</span><br />based in Frontend</h1>
                     <div className="mt-4">
-                        <Link to="" download="" className="main-btn">Download PROPOSAL</Link>
+                        <a href={cv} download="georgegodslove.pdf" className="main-btn"> <img src={cv} alt="" className="" /> Preview my CV </a>
                     </div>
                 </div>
             </div>

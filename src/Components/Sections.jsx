@@ -11,7 +11,7 @@ const Sections = () => {
         <section id="about" className="about_wrapper">
         <div className="container">
             <div className="row justify-content-between align-items-center">
-            <div className="col-lg-5 mb-4 mb-lg-0">
+            <div className="col-lg-5 mb-4 mb-lg-0 text-center">
                 <img src={about1} className="imgd rounded-3" alt="About-Us" />
             </div>
             <div className="col-lg-7 ps-lg-5 text-center text-lg-start">
