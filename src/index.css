@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.imgd {
+  height: 35rem !important;
+  object-fit: cover;
+  object-position: center center;
+  width: 90%;
+}
+.sidetitle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 0.3rem;
+  background: orange;
+  border-radius: 0.5rem;
+}
+.smalldot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+.smalltext {
+  font-size: 0.9rem;
+}
+.text-lightgreen {
+  color: lightgreen;
+}
+.bg-lightgreen {
+  background: lightgreen;
+}
+.logo {
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
