@@ -18,7 +18,7 @@ const Header = () => {
         <nav className={`navbar navbar-expand-lg fixed-top ${navbar ? 'header-scrolled' : ''}`}>
             <div className="container">
               <Link className="navbar-brand" to="#">
-                <img src={logo} className="img-fluid logo" alt="logo" />
+                <img src={'https://res.cloudinary.com/dscn7bqto/image/upload/v1708675012/logo_d6hne8.png'} className="img-fluid logo" alt="logo" />
               </Link>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 

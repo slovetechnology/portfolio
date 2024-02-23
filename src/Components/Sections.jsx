@@ -12,7 +12,7 @@ const Sections = () => {
                 <div className="container">
                     <div className="row justify-content-between align-items-center">
                         <div className="col-lg-5 mb-4 mb-lg-0 text-center">
-                            <img src={about1} className="imgd rounded-3" alt="About-Us" />
+                            <img src={'https://res.cloudinary.com/dscn7bqto/image/upload/v1708674600/about1_dmgxfs.jpg'} className="imgd rounded-3" alt="About-Us" />
                         </div>
                         <div className="col-lg-7 ps-lg-5 text-center text-lg-start">
                             <div className="my-3 mb-lg-0">
@@ -186,7 +186,7 @@ const Sections = () => {
                             </form>
                         </div>
                         <div className="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0 text-center">
-                            <img src={about2} alt="" className="imgd rounded-3" />
+                            <img src={'https://res.cloudinary.com/dscn7bqto/image/upload/v1708674873/about2_jaadwa.jpg'} alt="" className="imgd rounded-3" />
                         </div>
                     </div>
                 </div>

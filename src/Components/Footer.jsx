@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-lg-4 col-md-6 text-center text-md-start">
             <div className="footer-logo mb-3 mb-md-0">
-              <img src={logo} alt="" className="img-fluid logo" />
+              <img src={'https://res.cloudinary.com/dscn7bqto/image/upload/v1708675012/logo_d6hne8.png'} alt="" className="img-fluid logo" />
             </div>
           </div>
     

@@ -27,7 +27,8 @@
 }
 
 body{
-    font-family: var(--primary-font);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: var(--secondary-color);
 }
 
