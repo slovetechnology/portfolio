@@ -14,7 +14,7 @@ const AllProjects = [
         image: img6,
         subtitle: 'Book Flights around the world from your smart phone, plan vaccations with family and friends, lock in business trips seamlessly, visa application to any country around the globe (Redux toolkit was used to store states globally)',
         githuburl: 'https://github.com/slovetechnology/geotravel',
-        link: 'https://geotravelv2.netlify.app/',
+        link: 'https://gowithgeo.com/',
         techs: [
             {
                 color: ['bg-warning', 'text-warning'],
